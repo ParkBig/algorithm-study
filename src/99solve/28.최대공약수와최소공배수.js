@@ -27,9 +27,9 @@ function solution(n, m) {
     return [Math.max(...newMinArr) ,minMul]
 }
 
-//미친^ㅒ끼 풀이 이런걸 어캐생각함 ㅋㅋ ㅅㅂ
+//미친^ㅒ끼 풀이 이런걸 어캐생각함 ㅋㅋ
 function 미친놈이푼거(a, b) {
     var r;
-    for(var ab= a*b;r = a % b;a = b, b = r){}
+    for(var ab= a*b; r = a % b; a = b, b = r){}
     return [b, ab/b];
 }
