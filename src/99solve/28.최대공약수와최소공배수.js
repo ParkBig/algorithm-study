@@ -28,7 +28,7 @@ function solution(n, m) {
 }
 
 //풀이 이런걸 어캐생각함 ㅋㅋ
-function 미친놈이푼거(a, b) {
+function 대박(a, b) {
     var r;
     for(var ab= a*b; r = a % b; a = b, b = r){}
     return [b, ab/b];
